@@ -1,11 +1,11 @@
 type Props = {
     params: {
-          product1: string
+          reviewId: string
     }
   }
   
   export default function ProductDetails({ params }: Props) {
     return (
-          <h1>Details about product {params.product1}</h1>
+          <h1>Details about review {params.reviewId}</h1>
     )
   }
